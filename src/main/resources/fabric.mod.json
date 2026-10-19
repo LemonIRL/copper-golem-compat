@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "coppergolemcompat",
+	"version": "${version}",
+	"name": "Copper Golem Reinforced Storage Compat",
+	"description": "Lets copper golems deposit items into Reinforced Chests and Reinforced Barrels, in addition to vanilla chest/trapped chest.",
+	"authors": [
+		"Limitless SMP"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": {},
+	"mixins": [
+		"coppergolemcompat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "org.limitlesssmp.coppergolemcompat.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"CopperGolemAiMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
